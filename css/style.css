@@ -1,0 +1,26 @@
+body {
+  background-color: #e5e5e5;
+}
+.page_header {
+  background-color: #ffffff;
+}
+.logo_company {
+  color: black;
+}
+.first_part_logo {
+  color: #2196f3;
+}
+.site-nav a {
+  color: black;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.contact_information a {
+  color: black;
+}
+.contact_information a:hover,
+.contact_information a:focus {
+  color: #2196f3;
+}
