@@ -21,12 +21,17 @@ ul {
 .page {
   background-color: var(--primary-text-color);
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: roboto, sans-serif;
 }
 
 .logo-company {
   color: var(--logo-color);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
 }
+
 .first-part-logo {
   color: var(--accent-color);
 }
@@ -34,6 +39,8 @@ ul {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-family: 500;
+  font-size: 14px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -44,6 +51,8 @@ ul {
 }
 .contact-information .link {
   color: var(--title-text-color);
+  font-family: 500;
+  font-size: 14px;
 }
 .contact-information .link:hover,
 .contact-information.link:focus {
@@ -52,21 +61,47 @@ ul {
 /* Hero */
 .hero-title {
   color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 44px;
 }
 .button {
   background-color: var(--accent-color);
   color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
 }
 /* section */
-.section-title {
-  color: var(--title-text-color);
-}
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.description {
+  color: var(--second-text-color);
+  font-size: 14px;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
 }
 /*Section team */
 .team-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+.work {
+  color: var(--second-text-color);
+  font-weight: 400;
+  font-size: 16px;
+}
+.adreess-street {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
 }
 /* potfolio */
 .button-section .link {
@@ -77,4 +112,9 @@ ul {
 .button-section .link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.main-title .link {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
 }
