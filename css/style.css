@@ -1,26 +1,62 @@
-body {
-  background-color: #e5e5e5;
+/*цвет основного текста #212121*/
+/* цвет вторичного текста #757575*/
+/*белый цвет #FFFFFF*/
+/* акцент #2196F3*/
+/* цвет фона #e5e5e5 */
+/* вторичный цвет фона #F5F4FA */
+:root {
+  --primary-text-color: #e5e5e5;
+  --secondary-primary-color: #f5f4fa;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-text-color: #757575;
+  --white-color: #ffffff;
+  --logo-color: 000000;
 }
-.page_header {
-  background-color: #ffffff;
+ul {
+  list-style: none;
 }
-.logo_company {
-  font-size: 26px;
+
+.page {
+  background-color: var(--primary-text-color);
+  color: var(--title-text-color);
+  font-family: Roboto;
 }
-.first_part_logo {
-  color: #2196f3;
+
+.logo-company {
+  color: var(--logo-color);
 }
-.site-nav a {
-  color: black;
+.first-part-logo {
+  color: var(--accent-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #2196f3;
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
 }
-.contact_information a {
-  color: black;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-.contact_information a:hover,
-.contact_information a:focus {
-  color: #2196f3;
+.contact-information .link {
+  color: var(--title-text-color);
+}
+.contact-information .link:hover,
+.contact-information.link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+.feature-list .title {
+  color: var(--title-text-color);
 }
