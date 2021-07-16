@@ -11,7 +11,8 @@
   --accent-color: #2196f3;
   --second-text-color: #757575;
   --white-color: #ffffff;
-  --logo-color: 000000;
+  --logo-color: #000000;
+  --box-button: #f5f4fa;
 }
 ul {
   list-style: none;
@@ -38,6 +39,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .contact-information .link {
   color: var(--title-text-color);
 }
@@ -59,4 +63,18 @@ ul {
 }
 .feature-list .title {
   color: var(--title-text-color);
+}
+/*Section team */
+.team-title {
+  color: var(--title-text-color);
+}
+/* potfolio */
+.button-section .link {
+  background-color: var(--box-button);
+  color: var(--title-text-color);
+}
+.button-section .link:hover,
+.button-section .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
