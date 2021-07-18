@@ -21,15 +21,17 @@ ul {
 .page {
   background-color: var(--primary-text-color);
   color: var(--title-text-color);
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
 }
 
 .logo-company {
   color: var(--logo-color);
-  font-family: raleway, sans-serif;
+  font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
+  line-height: 1.1;
+  text-decoration: none;
 }
 
 .first-part-logo {
@@ -41,6 +43,7 @@ ul {
   color: var(--title-text-color);
   font-family: 500;
   font-size: 14px;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,6 +56,7 @@ ul {
   color: var(--title-text-color);
   font-family: 500;
   font-size: 14px;
+  text-decoration: none;
 }
 .contact-information .link:hover,
 .contact-information.link:focus {
@@ -63,12 +67,15 @@ ul {
   color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.4;
+  line-height: 1.1;
 }
 .button {
   background-color: var(--accent-color);
   color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.1;
 }
 /* section */
 .feature-list .title {
@@ -86,6 +93,7 @@ ul {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.1;
 }
 /*Section team */
 .team-title {
@@ -95,11 +103,9 @@ ul {
 }
 .work {
   color: var(--second-text-color);
-  font-weight: 400;
   font-size: 16px;
 }
 .adreess-street {
-  font-weight: 400;
   font-size: 14px;
   font-style: normal;
 }
@@ -107,6 +113,8 @@ ul {
 .button-section .link {
   background-color: var(--box-button);
   color: var(--title-text-color);
+  line-height: 1.1;
+  cursor: pointer;
 }
 .button-section .link:hover,
 .button-section .link:focus {
@@ -117,4 +125,9 @@ ul {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.1;
+}
+.project {
+  color: var(--second-text-color);
+  font-size: 16px;
 }
